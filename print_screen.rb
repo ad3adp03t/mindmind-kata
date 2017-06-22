@@ -1,2 +1,2 @@
 print "hello world"
-puts [*1..100]
+p "1,2,mine,*3..100"
