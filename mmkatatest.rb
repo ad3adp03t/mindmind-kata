@@ -21,18 +21,18 @@ class TestMinedMindsKata < Minitest::Test
 		assert_equal("mined", mined(9))
 	end
 	def test_5_returns_minds
-		assert_equal("minds", minds(5))
+		assert_equal("minds", mined(5))
 	end
 	def test_10_returns_minds
-		assert_equal("minds", minds(10))	
+		assert_equal("minds", mined(10))	
 	end
 	def test_20_return_minds
-		assert_equal("minds", minds(20))
+		assert_equal("minds", mined(20))
 	end
 	def test_15_return_mined_minds
-		assert_equal("mined minds", mined_minds(15))
+		assert_equal("mined minds", mined(15))
 	end
 	def test_30_return_mined_minds
-		assert_equal("mined minds", mined_minds(30))
+		assert_equal("mined minds", mined(30))
 	end					
 end			
