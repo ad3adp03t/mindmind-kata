@@ -31,5 +31,8 @@ class TestMinedMindsKata < Minitest::Test
 	end
 	def test_15_return_mined_minds
 		assert_equal("mined minds", mined_minds(15))
-	end				
+	end
+	def test_30_return_mined_minds
+		assert_equal("mined minds", mined_minds(30))
+	end					
 end			
